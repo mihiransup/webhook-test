@@ -5,7 +5,7 @@ node {
         	checkout scm
         }
         stage ('Build') {
-        	sh "echo 'hello'"
+        	sh "echo 'hello world'"
         }
        }catch (err) {
         currentBuild.result = 'FAILED'
