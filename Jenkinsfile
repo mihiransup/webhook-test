@@ -3,6 +3,7 @@ node {
     try {
         stage ('Clone') {
         	checkout scm
+            echo "checkkkkk"
         }
         stage ('Build') {
         	sh "echo 'hello world'"
